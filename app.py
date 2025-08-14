@@ -1,4 +1,4 @@
-# Simple WhatsApp Reminder Bot using Flask and Twilio
+# Import necessary libraries
 from flask import Flask, request
 from twilio.twiml.messaging_response import MessagingResponse
 from twilio.rest import Client
