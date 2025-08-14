@@ -34,14 +34,14 @@ RemindMe is a WhatsApp bot that helps you set reminders and manage your tasks di
    ```
 
 ## 🚀 How to Use
-1. Add the bot's WhatsApp number to your contacts.
-2. Send a message like `Remind me to call John at 5pm`.
-3. The bot will confirm your reminder and notify you at the specified time.
-4. Use commands like `list reminders` to view all your active reminders.
+1. 📲 Add the bot's WhatsApp number to your contacts using an `unique code`. 
+2. 💬 Send a message like `Remind me at 15:00 to call Bikram`.
+3. ✅ The bot will confirm your reminder and notify you at the specified time.
+4. 📋 Use commands like `list reminders` to view all your active reminders.
 
 ## 🤝 Contribution
 **Got ideas? Found a bug? 🐞**
 - Open an issue or submit a pull request — contributions are always welcome!
 
 ## 📜 License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the `MIT License`.
