@@ -26,9 +26,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Twilio credentials - try to get from environment variables, fall back to hardcoded values
-TWILIO_ACCOUNT_SID = "twilio-credentials"
-TWILIO_AUTH_TOKEN = "twilio-credentials"
-TWILIO_WHATSAPP_NUMBER = "twilio-credentials"
+TWILIO_ACCOUNT_SID = os.environ.get("TWILIO_ACCOUNT_SID")
+TWILIO_AUTH_TOKEN = os.environ.get("TWILIO_AUTH_TOKEN")
+TWILIO_WHATSAPP_NUMBER = os.environ.get("TWILIO_WHATSAPP_NUMBER")
 
 client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
 
@@ -313,3 +313,4 @@ def bot():
 
 if __name__ == "__main__":
     app.run()
+
