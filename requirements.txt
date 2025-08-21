@@ -4,3 +4,4 @@ python-dotenv
 apscheduler
 requests
 googlesearch-python
+google-genai

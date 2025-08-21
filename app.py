@@ -13,9 +13,9 @@ reminders = []
 
 
 # Hardcoded Twilio credentials
-TWILIO_ACCOUNT_SID = "AC5e8fd768f85b2d2a4ebfec3da4fe5014"
-TWILIO_AUTH_TOKEN = "9886ee904da606146bedbdc2faca4f0c"
-TWILIO_WHATSAPP_NUMBER = "whatsapp:+14155238886"
+TWILIO_ACCOUNT_SID = "your-twilio-credentials"
+TWILIO_AUTH_TOKEN = "your-twilio-credentials"
+TWILIO_WHATSAPP_NUMBER = "your-twilio-credentials"
 
 client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
 
@@ -62,7 +62,7 @@ def bot():
                 "msg": msg_part,
                 "to": from_number
             })
-            response.message(f"Reminder set for {remind_time.strftime('%H:%M')}: {msg_part} ✅")
+            response.message(f"Okay, I'll remind you at {remind_time.strftime('%H:%M')} {msg_part} ✅")
         except Exception as e:
             response.message("Invalid format. Use: remind me at HH:MM Your message")
     else:
